@@ -6,6 +6,14 @@ const artist = document.getElementById('artist');
 const perv = document.getElementById('perv');
 const next = document.getElementById('next');
 const glow = document.getElementById('boxx');
+const s1 = document.getElementById('s1');
+const s2 = document.getElementById('s2');
+const s3 = document.getElementById('s3');
+const s4 = document.getElementById('s4');
+const s5 = document.getElementById('s5');
+const s6 = document.getElementById('s6');
+const s7 = document.getElementById('s7');
+
 // const play = document.getElementById('play');
 
 const songs = [{
@@ -34,6 +42,16 @@ const songs = [{
         name: "friends",
         title: "FRIENDS",
         artist: "Marshmello & Anne-Marie"
+    },
+    {
+        name: "Gulabi",
+        title: "Gulabi Aankhen",
+        artist: "Sanam"
+    },
+    {
+        name: "Believer",
+        title: "Believer",
+        artist: "Imagine Dragons"
     }
 ];
 
@@ -107,3 +125,32 @@ const pervsong = () => {
 
 next.addEventListener("click", nextsong);
 perv.addEventListener("click", pervsong);
+
+s1.addEventListener("click", () => {
+    songindex = -1;
+    nextsong(songindex);
+});
+s2.addEventListener("click", () => {
+    songindex = 0;
+    nextsong(songindex);
+});
+s3.addEventListener("click", () => {
+    songindex = 1;
+    nextsong(songindex);
+});
+s4.addEventListener("click", () => {
+    songindex = 2;
+    nextsong(songindex);
+});
+s5.addEventListener("click", () => {
+    songindex = 3;
+    nextsong(songindex);
+});
+s6.addEventListener("click", () => {
+    songindex = 4;
+    nextsong(songindex);
+});
+s7.addEventListener("click", () => {
+    songindex = 5;
+    nextsong(songindex);
+});

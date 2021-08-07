@@ -169,7 +169,7 @@ body {
     height: 28rem;
     /* grid-column-start: 1;
     grid-column-end: 4; */
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
     background-color: white;
     text-align: center;
     border-radius: 3rem;
@@ -195,8 +195,41 @@ hr {
     /* border: 2px solid rgba(0, 0, 0, 0.1); */
     /* border-radius: 3rem; */
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    /* padding: 1rem 0rem 1rem 0rem; */
+    padding: 1.3rem 0rem 1.3rem 0rem;
+    /* filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.777)); */
     font-weight: bold;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-width: 0px 0px 1px 0px;
+    transition: box-shadow 0.4s ease;
+}
+
+.list:hover {
+    box-shadow: 0rem 2rem 0.5rem -2rem inset rgba(255, 0, 247, 0.5), 0rem -2rem 0.5rem -2rem inset rgba(136, 0, 255, 0.5);
+    transition: box-shadow 0.2s ease;
+    cursor: pointer;
+    /* border-radius: 5px; */
+}
+
+.list-top {
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.list-top:hover {
+    box-shadow: 0rem 2rem 0.5rem -2rem inset rgba(255, 0, 247, 0.5), 0rem -2rem 0.5rem -2rem inset rgba(136, 0, 255, 0.5);
+    border-radius: 2rem 2rem 0rem 0rem;
+    transition: box-shadow 0.2s ease;
+}
+
+.list-bottom {
+    border-radius: 0rem 0rem 2rem 2rem;
+}
+
+.list-bottom:hover {
+    box-shadow: 0rem 2rem 0.5rem -2rem inset rgba(255, 0, 247, 0.5), 0rem -2rem 0.5rem -2rem inset rgba(136, 0, 255, 0.5);
+    border-radius: 0rem 0rem 2rem 2rem;
+    transition: box-shadow 0.2s ease;
 }
 
 .button {
