@@ -1,8 +1,11 @@
 # Music-Player
 
-Basic Online Music player.
+Basic Online Music player.<br>
 My First Javascript Project.
 ☺ ☺ ☺ ☺ ☺
+<br><br>
+This is preview of website.
 
-![music](https://user-images.githubusercontent.com/75530555/129887304-f4aede5a-785f-4eb1-b176-109c3770f8ee.JPG)
+![Screenshot (407)](https://user-images.githubusercontent.com/75530555/129888204-142deab4-351d-47f6-91f3-76755064b06a.png)
+
 
